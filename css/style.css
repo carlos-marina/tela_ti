@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap');
+:root {
+  --primary: #00b98e;
+  --secondary: #effdf5;
+  --light: #effdf5;
+  --dark: #0e2e50;
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: "Heebo", sans-serif;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-texto{
+  color: var(--primary);
+  font-size: 47.83px;
+}
+
+.nav nav ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap:20px;
+  font-size: 20px;
+  list-style: none;
+}
+
+.nav nav ul li a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.nav nav ul li a:hover{
+  color:var(--primary)
+}
+.main{
+  display: flex;
+  height: 600px;
+  background-color: var(--light);
+}
+.col-esq{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+  padding-top: 35px;
+  padding-left: 25px;
+  padding-right: 15px;
+  align-items: left;
+}
+.main-img{
+  width: 50%;
+  background-image: url('https://media.gazetadopovo.com.br/2020/03/03115103/doacao-alimentos-marmita-foto-bigstock-960x540.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.main-texto {
+  font-size: xx-large;
+}
+.texto-verde{
+  color: var(--primary);
+}
+.main-botao{
+  background-color: var(--primary);
+  width: 130px;
+  height: 50px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.main-desc{
+  color:gray
+}
+
+.texto-sec1{
+  align-items: center;
+  gap: 10px;
+}
+.sec-login{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin-top: 100px;
+  gap: 30px;
+}
+.infos{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.info-login{
+  border: 4px;
+  border-radius: 8px;
+  background-color: lightgray;
+}
+.login-texto{
+  margin-right: 70px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
